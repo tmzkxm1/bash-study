@@ -1,0 +1,7 @@
+명령어 기호,원래 영어 단어,수학 기호,한글 의미
+-eq,equal,==,같다
+-ne,not equal,!=,다르다
+-gt,greater than,> (초과),왼쪽이 오른쪽보다 크다
+-ge,greater than or equal,>= (이상),왼쪽이 오른쪽보다 크거나 같다
+-lt,less than,< (미만),왼쪽이 오른쪽보다 작다
+-le,less than or equal,<= (이하),왼쪽이 오른쪽보다 작거나 같다

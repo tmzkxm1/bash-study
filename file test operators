@@ -1,0 +1,15 @@
+file test operators
+
+-e -> 파일 존재 하는가?
+-f -> regular file 인가?
+데이터를 담고 있는 표준적인 파일들 -> /etc/passwd -> /var/log/messahes & /var/log/syslog
+쉘 스크립트 / 웹 서버 설정파일 -> .sh -> /etc/nginx/nginx.conf
+-d -> directory 인가?
+-b -> block device file인가?
+하드웨어 장치를 나타내는 특수 파일 주로 저장 장치(스토리지)와 관련 -> /dev/sda -> /dev/nvme0n1
+-c -> character device file인가?
+데이터를 한번에 1바이트씩 순차적으로 일고 쓰는장치를 나타내는 특수파일 -> /dev/null -> /dev/urandom -> /dev/tty
+-L -> symbolic link file인가?
+-r -> 읽기 권한이 있는가?
+-w -> 쓰기 권한이 있는가?
+-x -> 실행 권한이 있는가?
